@@ -30,6 +30,9 @@ FacilityLocationMutualInformation::FacilityLocationMutualInformation(ll n_, int 
     similarityWithNearestInX = std::vector<float>(n, 0);
 }
 
+FacilityLocationMutualInformation::~FacilityLocationMutualInformation() {
+}
+
 // FacilityLocationMutualInformation* FacilityLocationMutualInformation::clone() {
 //     return NULL;
 // }
