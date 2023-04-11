@@ -37,6 +37,13 @@ FacilityLocationConditionalGain::FacilityLocationConditionalGain(ll n_, int numP
     // std::cout << "Instantiated condGain\n";
 }
 
+FacilityLocationConditionalGain::~FacilityLocationConditionalGain() {
+
+    delete facLoc;
+    delete condGain;
+}
+
+
 // FacilityLocationConditionalGain* FacilityLocationConditionalGain::clone() {
 //     return NULL;
 // }
